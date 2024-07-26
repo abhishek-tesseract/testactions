@@ -1,5 +1,5 @@
 {
-  "name": "tests",
+  "name": "nightwatch",
   "version": "1.0.0",
   "description": "Your project description",
   "main": "index.js",
