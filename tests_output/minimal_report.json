@@ -1,1 +1,1 @@
-{"modules":{"basic\\ecosia":{"modulePath":"C:\\Users\\AbhishekBharmavath\\Desktop\\gitactions\\Nightwatch\\nightwatch\\examples\\basic\\ecosia.js","status":"pass"}}}
+{"modules":{"test\\sample":{"modulePath":"C:\\Users\\AbhishekBharmavath\\Desktop\\gitactions\\Nightwatch\\test\\sample.js","status":"skip"}}}
