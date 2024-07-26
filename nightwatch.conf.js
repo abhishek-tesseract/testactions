@@ -54,7 +54,8 @@ module.exports = {
       
       webdriver: {
         start_process: true,
-        server_path: ''
+        server_path: '/home/runner/work/testactions/testactions/node_modules/chromedriver/lib/chromedriver/chromedriver',
+        port:9515
       },
       
     },
@@ -69,13 +70,18 @@ module.exports = {
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
             //'--headless=new'
+            '--no-sandbox',
+            '--disable-gpu',
+            '--disable-dev-shm-usage',
+            '--remote-debugging-port=9222'
           ]
         }
       },
 
       webdriver: {
         start_process: true,
-        server_path: '',
+       server_path: '/home/runner/work/testactions/testactions/node_modules/chromedriver/lib/chromedriver/chromedriver',
+        port: 9515,
         cli_args: [
           // --verbose
         ]
